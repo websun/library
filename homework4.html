@@ -1,0 +1,84 @@
+<!DOCTYPE html5>
+<head>
+	<style>
+		.container{
+			//border:2px solid gray;
+		}
+		fieldset{
+			width:80%;
+			margin:auto;
+		}
+		.leftdiv{
+			float:left;
+			width:45%;
+			height:250px;
+			padding:10px;
+		}
+		.righdiv{
+			float:right;
+			width:45%;
+			height:200px;
+		}
+		label{
+			
+		}
+		input[type=text],input[type=email],input[type=date]{
+			width:80%;
+			padding:5px;
+			float:right;
+		}
+	</style>
+</head>
+	
+<body>
+	<div class="container">
+		<form action="/action_page.php" style="">
+			<fieldset>
+			<legend>Book Registration:</legend>
+				<div class="leftdiv">
+					<label for="bname">Book Title:</label>
+					<input type="text" id="fname" name="fname""><br><br>
+					<label for="lname">Author:</label>
+					<input type="text" id="lname" name="lname"><br><br>
+					<label for="email">Price:</label>
+					<input type="email" id="email" name="email"><br><br>
+					<label for="birthday">Birthday:</label>
+					<input type="date" id="birthday" name="birthday"><br><br>
+				</div>
+				<div class="righdiv">
+					<label for="birthday">Birthday:</label>
+					<input type="date" id="birthday" name="birthday"><br><br>
+					<input type="submit" value="Submit">
+				</div>
+			</fieldset>
+			<br>
+			<fieldset>
+			<legend>Person Registration</legend>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name="birthday"><br><br>
+				<input type="submit" value="Submit">
+			</fieldset><br>
+			<fieldset>
+			<legend>Issuing Book</legend>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name="birthday"><br><br>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
+
+
