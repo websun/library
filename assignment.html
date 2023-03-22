@@ -1,0 +1,121 @@
+<!DOCTYPE html5>
+<head>
+	<style>
+		.flxdiv{
+			display:flex;
+			flex-direction:row;
+		}
+		header{
+			background-color:darkgray;
+			height:8%;
+			font-size:1.80em;
+			text-align:center;
+		}
+		.leftside{
+			background-color:#f1f1f1;
+			font-size:1.80em;
+			width:20%;
+			height:500px;
+		}
+		article{
+			background-color:white;
+			font-size:1.50em;
+			width:60%;
+			height:500px;
+		}
+		.sidebar{
+			width:20%;
+			height:500px;
+			background-color:#f1f1f1;
+		}
+		footer{
+			background-color:darkgray;
+			height:6%;
+			font-size:1.80em;
+			text-align:center;
+		}
+		#parentul li{
+			display:inline;
+			padding:5px;
+		}
+		nav{
+			height:10%;
+			border:1px solid green;
+			padding-left:16%;
+		}
+		.dropdown{
+			//background-color:darkgray;
+			color:green;
+			border:none;
+			cursor:pointer;
+		}
+		.droplist{
+			position:relative;
+			display:inline-block;
+		}
+		.dropdown-content{
+			display:none;
+			position:absolute;
+			min-width:160px;
+		}
+		.dropdown-content a{
+			color:black;
+			padding:10px;
+			text-decoration:none;
+			display:block;
+		}
+		.droplist:hover .dropdown-content{
+			display:block;
+			color:purple;
+		}
+		droplist:hover .dropdown{
+			background-color:brown;
+		}
+		.dropdown-content a{
+			border:1px solid green;
+		}
+	</style>
+	
+</head>
+	
+<body>
+	<div class="container">
+		<header> header </header>
+		<nav>
+			<ul id="parentul">
+				<li>Web Development</li>
+				<li>Database Design</li>
+				<li>About</li>
+				<li>About</li>
+				<li>
+				<div class="droplist">
+					<a href"#"><div class="dropdown" style="display:inline;">Services</a>
+						<div class="dropdown-content">
+							<a href="#">Website</a>
+							<a href="#">Database Design</a>
+							<a href="#">System Development</a>
+							<a href="#">Website</a>
+							<a href="#">Database Design</a>
+							<a href="#">System Development</a>
+						</div>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</nav>
+		<div class="flxdiv">
+			<div class="leftside">
+			
+			</div>
+			<article>
+
+			</article>
+			<div class="sidebar">
+			</div>
+		</div>
+		<footer>footer</footer>
+	</div>
+</body>
+</html>
+
+
